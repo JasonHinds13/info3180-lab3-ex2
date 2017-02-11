@@ -77,7 +77,7 @@ def page_not_found(error):
    
     
 def send_email(from_name, from_email, subject, msg):
-
+    
     to_name = "Brandon"
     to_addr = '@gmail.com'
     message = """From: {} <{}> To: {} <{}>Subject: {} {}"""
